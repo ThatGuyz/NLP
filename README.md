@@ -41,7 +41,7 @@ nlp_fr = spacy.load('fr')
 doc_fr = nlp_fr(u'Hello, world. Here are two sentences.')
 
 #Example 1 
-import spacy
+>import spacy
 import random
 
 nlp = spacy.load('en')
