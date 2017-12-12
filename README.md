@@ -36,10 +36,10 @@ Scikit-learn: Machine learning in Python
 #https://github.com/llSourcell/tensorflow_chatbot
 
 # Example 1 
-<import spacy
+>import spacy
 nlp_fr = spacy.load('fr')
 doc_fr = nlp_fr(u'Hello, world. Here are two sentences.')
->
+
 #Example 1 
 import spacy
 import random
@@ -63,5 +63,5 @@ from nltk import word_tokenize, pos_tag
 text = "I am learning Natural Language Processing on Analytics Vidhya"
 tokens = word_tokenize(text)
 print pos_tag(tokens)
->>> [('I', 'PRP'), ('am', 'VBP'), ('learning', 'VBG'), ('Natural', 'NNP'),('Language', 'NNP'),
-('Processing', 'NNP'), ('on', 'IN'), ('Analytics', 'NNP'),('Vidhya', 'NNP')]
+">>> [('I', 'PRP'), ('am', 'VBP'), ('learning', 'VBG'), ('Natural', 'NNP'),('Language', 'NNP'),
+('Processing', 'NNP'), ('on', 'IN'), ('Analytics', 'NNP'),('Vidhya', 'NNP')]"
