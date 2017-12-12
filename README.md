@@ -3,8 +3,8 @@ Programmation neuro-linguistique
 
 ### easy way : https://explosion.ai/blog/chatbot-node-js-spacy
 
-python -m spacy download fr
-Scikit-learn: Machine learning in Python
+
+
 
 # Resources
 
@@ -14,7 +14,7 @@ Scikit-learn: Machine learning in Python
 * spaCy – Industrial strength N LP with Python and Cython.
 * Gensim – Topic Modelling for Humans
 * Stanford Core NLP – NLP services and packages by Stanford NLP Grou
-
+* Scikit-learn: Machine learning in Python
 #
 # Some more useful resources on chatbots:
 * http://www.wildml.com/2016/04/deep-learning-for-chatbots-part-1-introduction/
@@ -29,32 +29,34 @@ Scikit-learn: Machine learning in Python
 
 
 
-** Downlaod DataSet
-** Create a model
-** Train this shit 
-** test out it
+* Downlaod DataSet
+* Create a model
+* Train this shit 
+* test out it
 
 #https://github.com/llSourcell/tensorflow_chatbot
 
 # Example 1 
+* python -m spacy download fr
+
 >import spacy
 nlp_fr = spacy.load('fr')
 doc_fr = nlp_fr(u'Hello, world. Here are two sentences.')
 
 #Example 1 
 >import spacy
-import random
+>import random
 
-nlp = spacy.load('en')
-train_data = [("Uber blew through $1 million", {'entities': [(0, 4, 'ORG')]})]
+>nlp = spacy.load('en')
+>train_data = [("Uber blew through $1 million", {'entities': [(0, 4, 'ORG')]})]
 
-with nlp.disable_pipes(*[pipe for pipe in nlp.pipe_names if pipe != 'ner']):
-    optimizer = nlp.begin_training()
-    for i in range(10):
-        random.shuffle(train_data)
-        for text, annotations in train_data:
-            nlp.update([text], [annotations] sgd=optimizer)
-nlp.to_disk('/model')
+>with nlp.disable_pipes(*[pipe for pipe in nlp.pipe_names if pipe != 'ner']):
+ >   optimizer = nlp.begin_training()
+  >  for i in range(10):
+   >     random.shuffle(train_data)
+    >    for text, annotations in train_data:
+     >       nlp.update([text], [annotations] sgd=optimizer)
+> nlp.to_disk('/model')
 
 
 
