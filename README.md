@@ -1,6 +1,7 @@
 # NLP
 Programmation neuro-linguistique
 
+### easy way : https://explosion.ai/blog/chatbot-node-js-spacy
 
 python -m spacy download fr
 Scikit-learn: Machine learning in Python
