@@ -7,12 +7,12 @@ Scikit-learn: Machine learning in Python
 
 # Resources
 
-*Natural Language Toolkit (NLTK): The complete toolkit for all NLP techniques.
-*Pattern – A web mining module for the with tools for NLP and machine learning.
-*TextBlob – Easy to use nl p tools API, built on top of NLTK and Pattern.
-*spaCy – Industrial strength N LP with Python and Cython.
-*Gensim – Topic Modelling for Humans
-*Stanford Core NLP – NLP services and packages by Stanford NLP Grou
+* Natural Language Toolkit (NLTK): The complete toolkit for all NLP techniques.
+* Pattern – A web mining module for the with tools for NLP and machine learning.
+* TextBlob – Easy to use nl p tools API, built on top of NLTK and Pattern.
+* spaCy – Industrial strength N LP with Python and Cython.
+* Gensim – Topic Modelling for Humans
+* Stanford Core NLP – NLP services and packages by Stanford NLP Grou
 
 #
 # Some more useful resources on chatbots:
@@ -21,25 +21,25 @@ Scikit-learn: Machine learning in Python
 * http://web.stanford.edu/class/cs124/lec/chatbot.pdf
 
 #
-#More resources on Tensorflow:
-#http://lauragelston.ghost.io/speakeasy-pt2/
-#https://speakerdeck.com/inureyes/building-ai-chat-bot-using-python-3-and-tensorflow
+* More resources on Tensorflow:
+* http://lauragelston.ghost.io/speakeasy-pt2/
+* https://speakerdeck.com/inureyes/building-ai-chat-bot-using-python-3-and-tensorflow
 
 
 
 
 ** Downlaod DataSet
 ** Create a model
-**Train this shit 
-**test out it
+** Train this shit 
+** test out it
 
 #https://github.com/llSourcell/tensorflow_chatbot
 
 # Example 1 
-import spacy
+<import spacy
 nlp_fr = spacy.load('fr')
 doc_fr = nlp_fr(u'Hello, world. Here are two sentences.')
-
+>
 #Example 1 
 import spacy
 import random
