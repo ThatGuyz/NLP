@@ -27,7 +27,7 @@ Programmation neuro-linguistique
 * https://speakerdeck.com/inureyes/building-ai-chat-bot-using-python-3-and-tensorflow
 
 
-
+## Cycle
 
 * Downlaod DataSet
 * Create a model
