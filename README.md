@@ -36,6 +36,13 @@ Programmation neuro-linguistique
 
 #https://github.com/llSourcell/tensorflow_chatbot
 
+#French
+pip install https://github.com/pagesjaunes/spacy-french-models/releases/download/v0.0.1-alpha/fr_model-0.0.1.tar.gz
+
+# set up shortcut link to load installed package as "fr_default"
+python -m spacy link fr_model fr_default --force
+
+
 # Example 1 
 * python -m spacy download fr
 
